@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32942541CE0788D00C51556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942531CE0788D00C51556 /* main.m */; };
+		D32942571CE0788D00C51556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942561CE0788D00C51556 /* AppDelegate.m */; };
+		D329425A1CE0788D00C51556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942591CE0788D00C51556 /* ViewController.m */; };
+		D329425D1CE0788D00C51556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D329425B1CE0788D00C51556 /* Main.storyboard */; };
+		D329425F1CE0788D00C51556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D329425E1CE0788D00C51556 /* Assets.xcassets */; };
+		D32942621CE0788D00C51556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32942601CE0788D00C51556 /* LaunchScreen.storyboard */; };
+		D329426D1CE0788D00C51556 /* JadeUIExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D329426C1CE0788D00C51556 /* JadeUIExampleTests.m */; };
+		D32942781CE0788D00C51556 /* JadeUIExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942771CE0788D00C51556 /* JadeUIExampleUITests.m */; };
+		D32942881CE078C500C51556 /* UIView+JadeUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942871CE078C500C51556 /* UIView+JadeUI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32942691CE0788D00C51556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32942471CE0788D00C51556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D329424E1CE0788D00C51556;
+			remoteInfo = JadeUIExample;
+		};
+		D32942741CE0788D00C51556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32942471CE0788D00C51556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D329424E1CE0788D00C51556;
+			remoteInfo = JadeUIExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D329424F1CE0788D00C51556 /* JadeUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JadeUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32942531CE0788D00C51556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32942551CE0788D00C51556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D32942561CE0788D00C51556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D32942581CE0788D00C51556 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D32942591CE0788D00C51556 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D329425C1CE0788D00C51556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D329425E1CE0788D00C51556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32942611CE0788D00C51556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32942631CE0788D00C51556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32942681CE0788D00C51556 /* JadeUIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JadeUIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D329426C1CE0788D00C51556 /* JadeUIExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeUIExampleTests.m; sourceTree = "<group>"; };
+		D329426E1CE0788D00C51556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32942731CE0788D00C51556 /* JadeUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JadeUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32942771CE0788D00C51556 /* JadeUIExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeUIExampleUITests.m; sourceTree = "<group>"; };
+		D32942791CE0788D00C51556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32942861CE078C500C51556 /* UIView+JadeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JadeUI.h"; sourceTree = "<group>"; };
+		D32942871CE078C500C51556 /* UIView+JadeUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JadeUI.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D329424C1CE0788D00C51556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942651CE0788D00C51556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942701CE0788D00C51556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32942461CE0788D00C51556 = {
+			isa = PBXGroup;
+			children = (
+				D32942511CE0788D00C51556 /* JadeUIExample */,
+				D329426B1CE0788D00C51556 /* JadeUIExampleTests */,
+				D32942761CE0788D00C51556 /* JadeUIExampleUITests */,
+				D32942501CE0788D00C51556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32942501CE0788D00C51556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D329424F1CE0788D00C51556 /* JadeUIExample.app */,
+				D32942681CE0788D00C51556 /* JadeUIExampleTests.xctest */,
+				D32942731CE0788D00C51556 /* JadeUIExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32942511CE0788D00C51556 /* JadeUIExample */ = {
+			isa = PBXGroup;
+			children = (
+				D32942851CE078AD00C51556 /* JadeUI */,
+				D32942551CE0788D00C51556 /* AppDelegate.h */,
+				D32942561CE0788D00C51556 /* AppDelegate.m */,
+				D32942581CE0788D00C51556 /* ViewController.h */,
+				D32942591CE0788D00C51556 /* ViewController.m */,
+				D329425B1CE0788D00C51556 /* Main.storyboard */,
+				D329425E1CE0788D00C51556 /* Assets.xcassets */,
+				D32942601CE0788D00C51556 /* LaunchScreen.storyboard */,
+				D32942631CE0788D00C51556 /* Info.plist */,
+				D32942521CE0788D00C51556 /* Supporting Files */,
+			);
+			path = JadeUIExample;
+			sourceTree = "<group>";
+		};
+		D32942521CE0788D00C51556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32942531CE0788D00C51556 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D329426B1CE0788D00C51556 /* JadeUIExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D329426C1CE0788D00C51556 /* JadeUIExampleTests.m */,
+				D329426E1CE0788D00C51556 /* Info.plist */,
+			);
+			path = JadeUIExampleTests;
+			sourceTree = "<group>";
+		};
+		D32942761CE0788D00C51556 /* JadeUIExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32942771CE0788D00C51556 /* JadeUIExampleUITests.m */,
+				D32942791CE0788D00C51556 /* Info.plist */,
+			);
+			path = JadeUIExampleUITests;
+			sourceTree = "<group>";
+		};
+		D32942851CE078AD00C51556 /* JadeUI */ = {
+			isa = PBXGroup;
+			children = (
+				D32942861CE078C500C51556 /* UIView+JadeUI.h */,
+				D32942871CE078C500C51556 /* UIView+JadeUI.m */,
+			);
+			name = JadeUI;
+			path = ../../JadeUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D329424E1CE0788D00C51556 /* JadeUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D329427C1CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExample" */;
+			buildPhases = (
+				D329424B1CE0788D00C51556 /* Sources */,
+				D329424C1CE0788D00C51556 /* Frameworks */,
+				D329424D1CE0788D00C51556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JadeUIExample;
+			productName = JadeUIExample;
+			productReference = D329424F1CE0788D00C51556 /* JadeUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32942671CE0788D00C51556 /* JadeUIExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D329427F1CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExampleTests" */;
+			buildPhases = (
+				D32942641CE0788D00C51556 /* Sources */,
+				D32942651CE0788D00C51556 /* Frameworks */,
+				D32942661CE0788D00C51556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D329426A1CE0788D00C51556 /* PBXTargetDependency */,
+			);
+			name = JadeUIExampleTests;
+			productName = JadeUIExampleTests;
+			productReference = D32942681CE0788D00C51556 /* JadeUIExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D32942721CE0788D00C51556 /* JadeUIExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32942821CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExampleUITests" */;
+			buildPhases = (
+				D329426F1CE0788D00C51556 /* Sources */,
+				D32942701CE0788D00C51556 /* Frameworks */,
+				D32942711CE0788D00C51556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32942751CE0788D00C51556 /* PBXTargetDependency */,
+			);
+			name = JadeUIExampleUITests;
+			productName = JadeUIExampleUITests;
+			productReference = D32942731CE0788D00C51556 /* JadeUIExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32942471CE0788D00C51556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "罗英";
+				TargetAttributes = {
+					D329424E1CE0788D00C51556 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D32942671CE0788D00C51556 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D329424E1CE0788D00C51556;
+					};
+					D32942721CE0788D00C51556 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D329424E1CE0788D00C51556;
+					};
+				};
+			};
+			buildConfigurationList = D329424A1CE0788D00C51556 /* Build configuration list for PBXProject "JadeUIExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32942461CE0788D00C51556;
+			productRefGroup = D32942501CE0788D00C51556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D329424E1CE0788D00C51556 /* JadeUIExample */,
+				D32942671CE0788D00C51556 /* JadeUIExampleTests */,
+				D32942721CE0788D00C51556 /* JadeUIExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D329424D1CE0788D00C51556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32942621CE0788D00C51556 /* LaunchScreen.storyboard in Resources */,
+				D329425F1CE0788D00C51556 /* Assets.xcassets in Resources */,
+				D329425D1CE0788D00C51556 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942661CE0788D00C51556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942711CE0788D00C51556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D329424B1CE0788D00C51556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32942881CE078C500C51556 /* UIView+JadeUI.m in Sources */,
+				D329425A1CE0788D00C51556 /* ViewController.m in Sources */,
+				D32942571CE0788D00C51556 /* AppDelegate.m in Sources */,
+				D32942541CE0788D00C51556 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942641CE0788D00C51556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D329426D1CE0788D00C51556 /* JadeUIExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D329426F1CE0788D00C51556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32942781CE0788D00C51556 /* JadeUIExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D329426A1CE0788D00C51556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D329424E1CE0788D00C51556 /* JadeUIExample */;
+			targetProxy = D32942691CE0788D00C51556 /* PBXContainerItemProxy */;
+		};
+		D32942751CE0788D00C51556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D329424E1CE0788D00C51556 /* JadeUIExample */;
+			targetProxy = D32942741CE0788D00C51556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D329425B1CE0788D00C51556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D329425C1CE0788D00C51556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32942601CE0788D00C51556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32942611CE0788D00C51556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D329427A1CE0788D00C51556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D329427B1CE0788D00C51556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D329427D1CE0788D00C51556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JadeUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.JadeUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D329427E1CE0788D00C51556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JadeUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.JadeUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D32942801CE0788D00C51556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JadeUIExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.JadeUIExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JadeUIExample.app/JadeUIExample";
+			};
+			name = Debug;
+		};
+		D32942811CE0788D00C51556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JadeUIExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.JadeUIExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JadeUIExample.app/JadeUIExample";
+			};
+			name = Release;
+		};
+		D32942831CE0788D00C51556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JadeUIExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.JadeUIExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JadeUIExample;
+			};
+			name = Debug;
+		};
+		D32942841CE0788D00C51556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JadeUIExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.JadeUIExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JadeUIExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D329424A1CE0788D00C51556 /* Build configuration list for PBXProject "JadeUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D329427A1CE0788D00C51556 /* Debug */,
+				D329427B1CE0788D00C51556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D329427C1CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D329427D1CE0788D00C51556 /* Debug */,
+				D329427E1CE0788D00C51556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D329427F1CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32942801CE0788D00C51556 /* Debug */,
+				D32942811CE0788D00C51556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32942821CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32942831CE0788D00C51556 /* Debug */,
+				D32942841CE0788D00C51556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32942471CE0788D00C51556 /* Project object */;
+}
