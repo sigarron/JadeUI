@@ -77,4 +77,6 @@ typedef UIView *(^JadeUIVoidBlock)();
  */
 @property (nonatomic, copy) JadeUIVoidBlock jd_lazy;
 
+-(BOOL)jd_isLazyLoad;
+
 @end

@@ -16,6 +16,7 @@
 		D329426D1CE0788D00C51556 /* JadeUIExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D329426C1CE0788D00C51556 /* JadeUIExampleTests.m */; };
 		D32942781CE0788D00C51556 /* JadeUIExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942771CE0788D00C51556 /* JadeUIExampleUITests.m */; };
 		D32942881CE078C500C51556 /* UIView+JadeUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942871CE078C500C51556 /* UIView+JadeUI.m */; };
+		D32942921CE1FBE900C51556 /* UIView+JadeUIPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942911CE1FBE900C51556 /* UIView+JadeUIPrivate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D32942791CE0788D00C51556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32942861CE078C500C51556 /* UIView+JadeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JadeUI.h"; sourceTree = "<group>"; };
 		D32942871CE078C500C51556 /* UIView+JadeUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JadeUI.m"; sourceTree = "<group>"; };
+		D32942901CE1FBE900C51556 /* UIView+JadeUIPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JadeUIPrivate.h"; sourceTree = "<group>"; };
+		D32942911CE1FBE900C51556 /* UIView+JadeUIPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JadeUIPrivate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 			children = (
 				D32942861CE078C500C51556 /* UIView+JadeUI.h */,
 				D32942871CE078C500C51556 /* UIView+JadeUI.m */,
+				D32942901CE1FBE900C51556 /* UIView+JadeUIPrivate.h */,
+				D32942911CE1FBE900C51556 /* UIView+JadeUIPrivate.m */,
 			);
 			name = JadeUI;
 			path = ../../JadeUI;
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32942921CE1FBE900C51556 /* UIView+JadeUIPrivate.m in Sources */,
 				D32942881CE078C500C51556 /* UIView+JadeUI.m in Sources */,
 				D329425A1CE0788D00C51556 /* ViewController.m in Sources */,
 				D32942571CE0788D00C51556 /* AppDelegate.m in Sources */,
@@ -513,6 +519,7 @@
 				D329427E1CE0788D00C51556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D329427F1CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				D32942811CE0788D00C51556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D32942821CE0788D00C51556 /* Build configuration list for PBXNativeTarget "JadeUIExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				D32942841CE0788D00C51556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
