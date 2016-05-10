@@ -20,9 +20,9 @@ typedef UIView *(^JadeUIVoidBlock)();
 @interface UIView(JadeUI)
 
 /*
- *  UI frame will auto-scaled to fit current UIScreen
+ *  UI frame will auto-scaled to fit current UIScreen, default is 1.
  */
-+(void)jd_scaleBase:(CGFloat)scale;
++(void)jd_setScaleBase:(CGFloat)scale;
 
 
 /**
